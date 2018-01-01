@@ -1,0 +1,3145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=Big5-HKSCS">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: MingLiu, Courier, monospace, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: HeiT, HeiT, Helvetica, Helv, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: MingLiu, Courier, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 類別層級">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">類別層級資訊</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">類別</th>
+<th class="r b header" scope="col">層級</th>
+<th class="l b header" scope="col">值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">a</th>
+<td class="r data">2</td>
+<td class="l data">0 1</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b</th>
+<td class="r data">3</td>
+<td class="l data">0 1 2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">c</th>
+<td class="r data">3</td>
+<td class="l data">0 1 2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">d</th>
+<td class="r data">3</td>
+<td class="l data">0 1 2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">e</th>
+<td class="r data">36</td>
+<td class="l data">0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">response</th>
+<td class="r data">2</td>
+<td class="l data">0 1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX1"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 觀測值數目">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">讀取的觀測值數目</th>
+<td class="r data">1944</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">使用的觀測值數目</th>
+<td class="r data">1944</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">應變數: response   </div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 整體 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">來源</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">平方和</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">模型</th>
+<td class="r data">88</td>
+<td class="r data">126.8292181</td>
+<td class="r data">1.4412411</td>
+<td class="r data">9.27</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">誤差</th>
+<td class="r data">1855</td>
+<td class="r data">288.3677984</td>
+<td class="r data">0.1554543</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">已校正的總計</th>
+<td class="r data">1943</td>
+<td class="r data">415.1970165</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 配適統計值">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">R 平方</th>
+<th class="r b header" scope="col">變異係數</th>
+<th class="r b header" scope="col">根 MSE</th>
+<th class="r b header" scope="col">response&nbsp;平均值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0.305468</td>
+<td class="r data">127.5332</td>
+<td class="r data">0.394277</td>
+<td class="r data">0.309156</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX4"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 類型 I 模型 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">來源</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">類型 I SS</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">a</th>
+<td class="r data">1</td>
+<td class="r data">6.33796296</td>
+<td class="r data">6.33796296</td>
+<td class="r data">40.77</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b</th>
+<td class="r data">2</td>
+<td class="r data">0.37757202</td>
+<td class="r data">0.18878601</td>
+<td class="r data">1.21</td>
+<td class="r data">0.2971</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">c</th>
+<td class="r data">2</td>
+<td class="r data">5.71707819</td>
+<td class="r data">2.85853909</td>
+<td class="r data">18.39</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">d</th>
+<td class="r data">2</td>
+<td class="r data">61.06275720</td>
+<td class="r data">30.53137860</td>
+<td class="r data">196.40</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">e</th>
+<td class="r data">35</td>
+<td class="r data">42.77109053</td>
+<td class="r data">1.22203116</td>
+<td class="r data">7.86</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b</th>
+<td class="r data">2</td>
+<td class="r data">0.08333333</td>
+<td class="r data">0.04166667</td>
+<td class="r data">0.27</td>
+<td class="r data">0.7649</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*c</th>
+<td class="r data">2</td>
+<td class="r data">1.24382716</td>
+<td class="r data">0.62191358</td>
+<td class="r data">4.00</td>
+<td class="r data">0.0185</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*d</th>
+<td class="r data">2</td>
+<td class="r data">4.70679012</td>
+<td class="r data">2.35339506</td>
+<td class="r data">15.14</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b*c</th>
+<td class="r data">4</td>
+<td class="r data">0.29218107</td>
+<td class="r data">0.07304527</td>
+<td class="r data">0.47</td>
+<td class="r data">0.7579</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b*d</th>
+<td class="r data">4</td>
+<td class="r data">0.60390947</td>
+<td class="r data">0.15097737</td>
+<td class="r data">0.97</td>
+<td class="r data">0.4221</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">c*d</th>
+<td class="r data">4</td>
+<td class="r data">0.14403292</td>
+<td class="r data">0.03600823</td>
+<td class="r data">0.23</td>
+<td class="r data">0.9207</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b*c</th>
+<td class="r data">4</td>
+<td class="r data">0.09876543</td>
+<td class="r data">0.02469136</td>
+<td class="r data">0.16</td>
+<td class="r data">0.9590</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b*d</th>
+<td class="r data">4</td>
+<td class="r data">0.44135802</td>
+<td class="r data">0.11033951</td>
+<td class="r data">0.71</td>
+<td class="r data">0.5852</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*c*d</th>
+<td class="r data">4</td>
+<td class="r data">0.12345679</td>
+<td class="r data">0.03086420</td>
+<td class="r data">0.20</td>
+<td class="r data">0.9392</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b*c*d</th>
+<td class="r data">8</td>
+<td class="r data">1.23559671</td>
+<td class="r data">0.15444959</td>
+<td class="r data">0.99</td>
+<td class="r data">0.4389</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b*c*d</th>
+<td class="r data">8</td>
+<td class="r data">1.58950617</td>
+<td class="r data">0.19868827</td>
+<td class="r data">1.28</td>
+<td class="r data">0.2504</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX5"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 類型 III 模型 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">來源</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">類型 III SS</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">a</th>
+<td class="r data">1</td>
+<td class="r data">6.33796296</td>
+<td class="r data">6.33796296</td>
+<td class="r data">40.77</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b</th>
+<td class="r data">2</td>
+<td class="r data">0.37757202</td>
+<td class="r data">0.18878601</td>
+<td class="r data">1.21</td>
+<td class="r data">0.2971</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">c</th>
+<td class="r data">2</td>
+<td class="r data">5.71707819</td>
+<td class="r data">2.85853909</td>
+<td class="r data">18.39</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">d</th>
+<td class="r data">2</td>
+<td class="r data">61.06275720</td>
+<td class="r data">30.53137860</td>
+<td class="r data">196.40</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">e</th>
+<td class="r data">35</td>
+<td class="r data">42.77109053</td>
+<td class="r data">1.22203116</td>
+<td class="r data">7.86</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b</th>
+<td class="r data">2</td>
+<td class="r data">0.08333333</td>
+<td class="r data">0.04166667</td>
+<td class="r data">0.27</td>
+<td class="r data">0.7649</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*c</th>
+<td class="r data">2</td>
+<td class="r data">1.24382716</td>
+<td class="r data">0.62191358</td>
+<td class="r data">4.00</td>
+<td class="r data">0.0185</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*d</th>
+<td class="r data">2</td>
+<td class="r data">4.70679012</td>
+<td class="r data">2.35339506</td>
+<td class="r data">15.14</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b*c</th>
+<td class="r data">4</td>
+<td class="r data">0.29218107</td>
+<td class="r data">0.07304527</td>
+<td class="r data">0.47</td>
+<td class="r data">0.7579</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b*d</th>
+<td class="r data">4</td>
+<td class="r data">0.60390947</td>
+<td class="r data">0.15097737</td>
+<td class="r data">0.97</td>
+<td class="r data">0.4221</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">c*d</th>
+<td class="r data">4</td>
+<td class="r data">0.14403292</td>
+<td class="r data">0.03600823</td>
+<td class="r data">0.23</td>
+<td class="r data">0.9207</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b*c</th>
+<td class="r data">4</td>
+<td class="r data">0.09876543</td>
+<td class="r data">0.02469136</td>
+<td class="r data">0.16</td>
+<td class="r data">0.9590</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b*d</th>
+<td class="r data">4</td>
+<td class="r data">0.44135802</td>
+<td class="r data">0.11033951</td>
+<td class="r data">0.71</td>
+<td class="r data">0.5852</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*c*d</th>
+<td class="r data">4</td>
+<td class="r data">0.12345679</td>
+<td class="r data">0.03086420</td>
+<td class="r data">0.20</td>
+<td class="r data">0.9392</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">b*c*d</th>
+<td class="r data">8</td>
+<td class="r data">1.23559671</td>
+<td class="r data">0.15444959</td>
+<td class="r data">0.99</td>
+<td class="r data">0.4389</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">a*b*c*d</th>
+<td class="r data">8</td>
+<td class="r data">1.58950617</td>
+<td class="r data">0.19868827</td>
+<td class="r data">1.28</td>
+<td class="r data">0.2504</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX6"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<p>
+<div>
+<div  class="c">
+<img alt="response * a 的分布" src="BoxPlot8.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX7"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Tukey&#39;s Studentized Range (HSD) Test for response</div>
+<p>
+<br>
+<p>
+<div align="center"><table class="notecontent"><tr><td class="c notebanner">
+Note:</td>
+<td class="l notecontent">This test controls the Type I experimentwise error rate, but it generally has a higher Type II error rate than REGWQ.</td></tr></table>
+</div><p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Information">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Alpha</th>
+<td class="r data">0.05</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Degrees of Freedom</th>
+<td class="r data">1855</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Mean Square</th>
+<td class="r data">0.155454</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Critical Value of Studentized Range</th>
+<td class="r data">2.77362</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Minimum Significant Difference</th>
+<td class="r data">0.0351</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX8"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Comparisons">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">具有相同字母的平均值沒有顯著不同。</th>
+</tr>
+<tr>
+<th class="c b header" scope="col">Tukey&nbsp;群組</th>
+<th class="r b header" scope="col">平均值</th>
+<th class="r b header" scope="col">N</th>
+<th class="l b header" scope="col">a</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">A</td>
+<td class="r data">0.36626</td>
+<td class="r data">972</td>
+<td class="l data">1</td>
+</tr>
+<tr>
+<td class="l data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">0.25206</td>
+<td class="r data">972</td>
+<td class="l data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX9"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<p>
+<div>
+<div  class="c">
+<img alt="response * b 的分布" src="BoxPlot9.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX10"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Tukey&#39;s Studentized Range (HSD) Test for response</div>
+<p>
+<br>
+<p>
+<div align="center"><table class="notecontent"><tr><td class="c notebanner">
+Note:</td>
+<td class="l notecontent">This test controls the Type I experimentwise error rate, but it generally has a higher Type II error rate than REGWQ.</td></tr></table>
+</div><p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Information">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Alpha</th>
+<td class="r data">0.05</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Degrees of Freedom</th>
+<td class="r data">1855</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Mean Square</th>
+<td class="r data">0.155454</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Critical Value of Studentized Range</th>
+<td class="r data">3.31716</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Minimum Significant Difference</th>
+<td class="r data">0.0514</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX11"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Comparisons">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">具有相同字母的平均值沒有顯著不同。</th>
+</tr>
+<tr>
+<th class="c b header" scope="col">Tukey&nbsp;群組</th>
+<th class="r b header" scope="col">平均值</th>
+<th class="r b header" scope="col">N</th>
+<th class="l b header" scope="col">b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">A</td>
+<td class="r data">0.32716</td>
+<td class="r data">648</td>
+<td class="l data">0</td>
+</tr>
+<tr>
+<td class="l data">A</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">A</td>
+<td class="r data">0.30710</td>
+<td class="r data">648</td>
+<td class="l data">1</td>
+</tr>
+<tr>
+<td class="l data">A</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">A</td>
+<td class="r data">0.29321</td>
+<td class="r data">648</td>
+<td class="l data">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX12"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<p>
+<div>
+<div  class="c">
+<img alt="response * c 的分布" src="BoxPlot10.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX13"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Tukey&#39;s Studentized Range (HSD) Test for response</div>
+<p>
+<br>
+<p>
+<div align="center"><table class="notecontent"><tr><td class="c notebanner">
+Note:</td>
+<td class="l notecontent">This test controls the Type I experimentwise error rate, but it generally has a higher Type II error rate than REGWQ.</td></tr></table>
+</div><p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Information">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Alpha</th>
+<td class="r data">0.05</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Degrees of Freedom</th>
+<td class="r data">1855</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Mean Square</th>
+<td class="r data">0.155454</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Critical Value of Studentized Range</th>
+<td class="r data">3.31716</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Minimum Significant Difference</th>
+<td class="r data">0.0514</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX14"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Comparisons">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">具有相同字母的平均值沒有顯著不同。</th>
+</tr>
+<tr>
+<th class="c b header" scope="col">Tukey&nbsp;群組</th>
+<th class="r b header" scope="col">平均值</th>
+<th class="r b header" scope="col">N</th>
+<th class="l b header" scope="col">c</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">A</td>
+<td class="r data">0.38580</td>
+<td class="r data">648</td>
+<td class="l data">0</td>
+</tr>
+<tr>
+<td class="l data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">0.27315</td>
+<td class="r data">648</td>
+<td class="l data">1</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">0.26852</td>
+<td class="r data">648</td>
+<td class="l data">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX15"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<p>
+<div>
+<div  class="c">
+<img alt="response * d 的分布" src="BoxPlot11.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX16"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Tukey&#39;s Studentized Range (HSD) Test for response</div>
+<p>
+<br>
+<p>
+<div align="center"><table class="notecontent"><tr><td class="c notebanner">
+Note:</td>
+<td class="l notecontent">This test controls the Type I experimentwise error rate, but it generally has a higher Type II error rate than REGWQ.</td></tr></table>
+</div><p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Information">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Alpha</th>
+<td class="r data">0.05</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Degrees of Freedom</th>
+<td class="r data">1855</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error Mean Square</th>
+<td class="r data">0.155454</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Critical Value of Studentized Range</th>
+<td class="r data">3.31716</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Minimum Significant Difference</th>
+<td class="r data">0.0514</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX17"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Comparisons">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">具有相同字母的平均值沒有顯著不同。</th>
+</tr>
+<tr>
+<th class="c b header" scope="col">Tukey&nbsp;群組</th>
+<th class="r b header" scope="col">平均值</th>
+<th class="r b header" scope="col">N</th>
+<th class="l b header" scope="col">d</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">A</td>
+<td class="r data">0.55864</td>
+<td class="r data">648</td>
+<td class="l data">0</td>
+</tr>
+<tr>
+<td class="l data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">0.20525</td>
+<td class="r data">648</td>
+<td class="l data">1</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<td class="l data">B</td>
+<td class="r data">0.16358</td>
+<td class="r data">648</td>
+<td class="l data">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX18"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: LSMeans">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">a</th>
+<th class="l b header" scope="col">c</th>
+<th class="r b header" scope="col">response LSMEAN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.29320988</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.23765432</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.22530864</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.47839506</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.30864198</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.31172840</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX19"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*c." src="MeanPlot32.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX20"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*c, sliced by a." src="MeanPlot33.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX21"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 配量的 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">a*c 依 a 配量的效果 response</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">a</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">平方和</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">2</td>
+<td class="r data">0.847737</td>
+<td class="r data">0.423868</td>
+<td class="r data">2.73</td>
+<td class="r data">0.0657</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">2</td>
+<td class="r data">6.113169</td>
+<td class="r data">3.056584</td>
+<td class="r data">19.66</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX22"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: LSMeans">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">a</th>
+<th class="l b header" scope="col">c</th>
+<th class="r b header" scope="col">response LSMEAN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.29320988</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.23765432</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.22530864</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.47839506</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.30864198</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.31172840</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX23"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*c." src="MeanPlot34.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX24"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*c, sliced by c." src="MeanPlot35.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX25"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 配量的 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">a*c 依 c 配量的效果 response</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">c</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">平方和</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">1</td>
+<td class="r data">5.555556</td>
+<td class="r data">5.555556</td>
+<td class="r data">35.74</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">1</td>
+<td class="r data">0.816358</td>
+<td class="r data">0.816358</td>
+<td class="r data">5.25</td>
+<td class="r data">0.0220</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">1</td>
+<td class="r data">1.209877</td>
+<td class="r data">1.209877</td>
+<td class="r data">7.78</td>
+<td class="r data">0.0053</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX26"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: LSMeans">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">a</th>
+<th class="l b header" scope="col">d</th>
+<th class="r b header" scope="col">response LSMEAN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.43209877</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.17901235</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.14506173</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.68518519</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.23148148</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.18209877</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX27"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*d." src="MeanPlot36.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX28"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*d, sliced by a." src="MeanPlot37.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX29"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 配量的 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">a*d 依 a 配量的效果 response</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">a</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">平方和</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">2</td>
+<td class="r data">15.940329</td>
+<td class="r data">7.970165</td>
+<td class="r data">51.27</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">2</td>
+<td class="r data">49.829218</td>
+<td class="r data">24.914609</td>
+<td class="r data">160.27</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX30"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: LSMeans">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">a</th>
+<th class="l b header" scope="col">d</th>
+<th class="r b header" scope="col">response LSMEAN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.43209877</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.17901235</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.14506173</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">0.68518519</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">0.23148148</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">0.18209877</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX31"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*d." src="MeanPlot38.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX32"></a>
+<div>
+<div  class="c">
+<img alt="Plot of response least-squares means for a*d, sliced by d." src="MeanPlot39.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX33"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">SAS 系統</td>
+</tr>
+</table><br>
+<div class="c proctitle">GLM 程序</div>
+<div class="c proctitle">最小平方平均值</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: 配量的 ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">a*d 依 d 配量的效果 response</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">d</th>
+<th class="r b header" scope="col">自由度</th>
+<th class="r b header" scope="col">平方和</th>
+<th class="r b header" scope="col">均方</th>
+<th class="r b header" scope="col">F 值</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">0</th>
+<td class="r data">1</td>
+<td class="r data">10.376543</td>
+<td class="r data">10.376543</td>
+<td class="r data">66.75</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1</th>
+<td class="r data">1</td>
+<td class="r data">0.445988</td>
+<td class="r data">0.445988</td>
+<td class="r data">2.87</td>
+<td class="r data">0.0905</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2</th>
+<td class="r data">1</td>
+<td class="r data">0.222222</td>
+<td class="r data">0.222222</td>
+<td class="r data">1.43</td>
+<td class="r data">0.2320</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
